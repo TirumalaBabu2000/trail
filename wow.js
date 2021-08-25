@@ -8,7 +8,7 @@
         }, {
             id: "date",
             alias: "date",
-            dataType: tableau.dataTypeEnum.string
+            dataType: tableau.dataTypeEnum.float
         }, {
             id: "deaths",
             alias: "deaths",

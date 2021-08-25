@@ -22,7 +22,7 @@
         }];
     
         var tableSchema = {
-            id: "Covid data",
+            id: "Covid_data",
             alias: "covid",
             columns: cols
         };
@@ -55,7 +55,7 @@
 })();
 $(document).ready(function () {
     $("#submitButton").click(function () {
-        tableau.connectionName = "Covid_Data";
+        tableau.connectionName = "Covid Data";
         tableau.submit();
     });
 });

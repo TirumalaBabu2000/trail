@@ -55,7 +55,7 @@
 })();
 $(document).ready(function () {
     $("#submitButton").click(function () {
-        tableau.connectionName = "Covid Data";
+        tableau.connectionName = "Covid_Data";
         tableau.submit();
     });
 });

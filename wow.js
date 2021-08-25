@@ -15,7 +15,7 @@
             dataType: tableau.dataTypeEnum.float
         }, {
             id: "Increase_Rate",
-            dataType: tableau.dataTypeEnum.float
+            dataType: tableau.dataTypeEnum.string
         },{
             id: "Recovered",
             dataType: tableau.dataTypeEnum.float

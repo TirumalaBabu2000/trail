@@ -8,7 +8,7 @@
         }, {
             id: "date",
             alias: "date",
-            dataType: tableau.dataTypeEnum.float
+            dataType: tableau.dataTypeEnum.datetime
         }, {
             id: "deaths",
             alias: "deaths",
@@ -39,7 +39,7 @@
             for (var i = 0, len = feat.length; i < len; i++) {
                 tableData.push({
                     "id": feat[i].confirmed,
-                    "date": feat[i].date,
+                    "date": new Date(feat[i].date.local),
                     "deaths": feat[i].deaths,
                     "Increase_Rate": feat[i].Increase_Rate,
                     "Recovered" : feat[i].Recovered

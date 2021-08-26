@@ -38,7 +38,7 @@
             // Iterate over the JSON object
             for (var i = 0, len = feat.length; i < len; i++) {
                 tableData.push({
-                    "id": feat[i].confirmed,
+                    "confirmed": feat[i].confirmed,
                     "date": new Date(feat[i].date.local),
                     "deaths": feat[i].deaths,
                     "Increase_Rate": feat[i].Increase_Rate,

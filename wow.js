@@ -38,11 +38,11 @@
             // Iterate over the JSON object
             for (var i = 0, len = feat.length; i < len; i++) {
                 tableData.push({
-                    "id": feat[i].properties.confirmed,
-                    "date": feat[i].properties.date,
-                    "deaths": feat[i].properties.deaths,
-                    "Increase_Rate": feat[i].properties.Increase_Rate,
-                    "Recovered" : feat[i].properties.Recovered
+                    "id": feat[i].confirmed,
+                    "date": feat[i].date,
+                    "deaths": feat[i].deaths,
+                    "Increase_Rate": feat[i].Increase_Rate,
+                    "Recovered" : feat[i].Recovered
                 });
             }
     

@@ -32,7 +32,7 @@
 
     myConnector.getData = function (table, doneCallback) {
         $.getJSON("https://pkgstore.datahub.io/core/covid-19/worldwide-aggregate_json/data/474f547cae3ef59b9df0a690f316ab42/worldwide-aggregate_json.json", function(resp) {
-            var feat = resp.features,
+            var feat = resp.results,
                 tableData = [];
     
             // Iterate over the JSON object
